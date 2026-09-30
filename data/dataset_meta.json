@@ -1,0 +1,12 @@
+{
+  "description": "Educational synthetic symptom-disease dataset. NOT real patient data.",
+  "num_rows": 320,
+  "num_diseases": 40,
+  "num_symptoms": 67,
+  "splits": {
+    "train": 224,
+    "val": 48,
+    "test": 48
+  },
+  "disclaimer": "For research/education only. Not clinical diagnostic data."
+}

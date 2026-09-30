@@ -1,0 +1,471 @@
+{
+  "project": "AI Disease Prediction System",
+  "version": "4.1.0-hardened",
+  "files": 92,
+  "validation": {
+    "backend_compile": "passed",
+    "pytest": "12 passed"
+  },
+  "artifacts": [
+    {
+      "path": ".gitignore",
+      "bytes": 224,
+      "sha256": "4082ee0c4a240233f5816e1c0258ac683067a68e953025549f42b6e8608f806d"
+    },
+    {
+      "path": "docker-compose.yml",
+      "bytes": 1804,
+      "sha256": "d6b79a3afad591cd7304993b8660922a016f2a9d9be792e15674f509e50fa476"
+    },
+    {
+      "path": "BUILD_MANIFEST.json",
+      "bytes": 14986,
+      "sha256": "0a6d1601b5ad277c846b3c917b38e964c8b365dcbffac6c637aa29245ce5f43c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4503,
+      "sha256": "d44cbe8b78555324fc52de407c56bde75b68504ce3f6444a6b64887879f125d8"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 167,
+      "sha256": "d3afbf77dc0fffb719cb58a5dcf1a900640cddfa83a138d107f5e096e4dc5162"
+    },
+    {
+      "path": "pytest.ini",
+      "bytes": 30,
+      "sha256": "5c8a63a922829839d9364b11088e32a90a835c8e5e34b86e201d31ac18f4dc19"
+    },
+    {
+      "path": "backend/requirements.txt",
+      "bytes": 471,
+      "sha256": "f75cc92106b8405b3d8ea10ac1df62062ce807ea707fe2c04f8c6c8c7ea58340"
+    },
+    {
+      "path": "backend/alembic.ini",
+      "bytes": 577,
+      "sha256": "c64fa65c81b23a77548bedee5828bc2d3e94bb653a06cb935e82ab230d42d16c"
+    },
+    {
+      "path": "backend/.env.example",
+      "bytes": 208,
+      "sha256": "024cf6aba4302e4261c10264f5b907709e7b036163a2b3b19332532a83dbe019"
+    },
+    {
+      "path": "backend/Dockerfile",
+      "bytes": 396,
+      "sha256": "b893400a9e5c5fa68c8cb784c9c0f6d878e85d099cb5112cd8f0c0eedfc52546"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 1610,
+      "sha256": "fed79e448f19908bd08e80c539ab243b38498fd4c9b2d21cbdb73a6da3927d47"
+    },
+    {
+      "path": "docs/PRODUCTION_CHECKLIST.md",
+      "bytes": 655,
+      "sha256": "41c4f63b89efe79c919791bba6ff7cd677bbcf6d5693b7ee0a526f5602855a22"
+    },
+    {
+      "path": ".pytest_cache/.gitignore",
+      "bytes": 37,
+      "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd"
+    },
+    {
+      "path": ".pytest_cache/CACHEDIR.TAG",
+      "bytes": 191,
+      "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4"
+    },
+    {
+      "path": ".pytest_cache/README.md",
+      "bytes": 302,
+      "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad"
+    },
+    {
+      "path": "scripts/quality_gate.py",
+      "bytes": 425,
+      "sha256": "f5e769ba9652287f5ace1c4fded489a62e5025b468cd9c532d469afc77e9e0b0"
+    },
+    {
+      "path": "scripts/train_and_evaluate.py",
+      "bytes": 4218,
+      "sha256": "fe3637d14cf76ccaedd51f7352b57606d535adef45243ebe2910cb372f61ed84"
+    },
+    {
+      "path": "data/dataset_meta.json",
+      "bytes": 300,
+      "sha256": "d00aa3c7715cb323c13de7e77645b2dbb5d2d495c48882f0ff51217e24007184"
+    },
+    {
+      "path": "data/symptom_disease_dataset.csv",
+      "bytes": 26366,
+      "sha256": "8745c92cdf2dc9b44fa47ec72b23ded4d577bfd5fbc583e3be338d33d7df2465"
+    },
+    {
+      "path": "knowledge/README.md",
+      "bytes": 750,
+      "sha256": "15335f738eacfd9315f7c52828fe79a769ea2d29248f9052a7357b68a7bb0e66"
+    },
+    {
+      "path": "models/label_encoder_v2.joblib",
+      "bytes": 5607,
+      "sha256": "58942d096fb456d4ad1460263a4fe3592d95db437347b7ca558559ab5ef6a2bc"
+    },
+    {
+      "path": "models/disease_rf_v2.joblib",
+      "bytes": 3289593,
+      "sha256": "d81c8bb1d44cc94d2f8f3c81dc692a33b9d4c49148257af7377550f57b78a266"
+    },
+    {
+      "path": "models/disease_rf_v3.joblib",
+      "bytes": 7033193,
+      "sha256": "649adfacc5b8dbd9bde169fc4130fbe407e02f530e6ba4219d963ff7892372ab"
+    },
+    {
+      "path": "models/mlb_v3.joblib",
+      "bytes": 2610,
+      "sha256": "ab8a8e6b780ecea1eb0c8b42d3248960b2978a559ac77fd9455ad512457ee32c"
+    },
+    {
+      "path": "models/mlb_v2.joblib",
+      "bytes": 2610,
+      "sha256": "23f0d8b5721ac7daa46f5f0de732d306cb98f976ea31910acc580c7203e78be2"
+    },
+    {
+      "path": "models/metrics_v3.json",
+      "bytes": 11999,
+      "sha256": "d4884fb320acc420b3057c26ace46bb57e271079f45add8808a73e445c7409de"
+    },
+    {
+      "path": "models/label_encoder_v3.joblib",
+      "bytes": 5607,
+      "sha256": "6875c678b9782ec1fef72fa4864c59dc6b01a47a6f745198db3cb44a92ef2caa"
+    },
+    {
+      "path": "frontend/tailwind.config.js",
+      "bytes": 697,
+      "sha256": "278c915872f827e5aff5d62095d5cd8cf47151c6d34c1d4c10c72c2a2030ca7a"
+    },
+    {
+      "path": "frontend/package.json",
+      "bytes": 627,
+      "sha256": "476eabf78651e3e8a7e2c518de51080cd619f280ef2aaea0a48ed2c7af8fb992"
+    },
+    {
+      "path": "frontend/next.config.js",
+      "bytes": 144,
+      "sha256": "8e287aa19f681e08954bbac2ba74f4275308b412024ec3fdca77fcc13c3754a9"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "bytes": 542,
+      "sha256": "7f866bd1055e4194349a06f08710a651546606b9c5f139c7605243dbe64820fc"
+    },
+    {
+      "path": "frontend/postcss.config.js",
+      "bytes": 83,
+      "sha256": "fa650b380adfabb151a0b352f7135e107e6352345f899060f1c5c231228f94bf"
+    },
+    {
+      "path": "frontend/Dockerfile",
+      "bytes": 385,
+      "sha256": "196bdf549076800825d74fb6381905c5f777c280cca9b98e024728348c6c1737"
+    },
+    {
+      "path": "frontend/next-env.d.ts",
+      "bytes": 81,
+      "sha256": "879741880b6ab48da99dcc06dcc674d381c9826137b0496bf7bb368f302de9fc"
+    },
+    {
+      "path": "frontend/public/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "frontend/src/lib/api.ts",
+      "bytes": 4880,
+      "sha256": "12edf563f37c13271bb5ed2a67f69b7b67825a4134debecce53dbfadb79fa198"
+    },
+    {
+      "path": "frontend/src/app/globals.css",
+      "bytes": 6393,
+      "sha256": "c19560594a806c36133f8a5ed5e304432755c3fc456cabee26f462f640c07c0f"
+    },
+    {
+      "path": "frontend/src/app/layout.tsx",
+      "bytes": 3377,
+      "sha256": "0d753e19b1b0d80d4a9a5344be09eea2f01c311e56acc14e5ca324ca2550b276"
+    },
+    {
+      "path": "frontend/src/app/page.tsx",
+      "bytes": 5987,
+      "sha256": "bebdc11e4c80d14616fe469037b3fada7508f0da6b1a2da73ed701d1a59afd95"
+    },
+    {
+      "path": "frontend/src/app/voice/page.tsx",
+      "bytes": 9033,
+      "sha256": "0a7f25854594fdc82419c2438cbd0470d0a7cc6edc15f0ab48af8184f159a488"
+    },
+    {
+      "path": "frontend/src/app/medicines/page.tsx",
+      "bytes": 1765,
+      "sha256": "8f7c1f35824ac6c9ac81cfd9eb843426225e5ab88e6603d00db8aa4ba1016126"
+    },
+    {
+      "path": "frontend/src/app/scan/page.tsx",
+      "bytes": 1785,
+      "sha256": "7816f1f769558350ce21e75c26a9bccb87378cb3787dabf9f653d613b35afca2"
+    },
+    {
+      "path": "frontend/src/app/login/page.tsx",
+      "bytes": 2967,
+      "sha256": "7264fab31884f5ee88e69930b327aacbc43d9b856d4ed49e982034682c55b390"
+    },
+    {
+      "path": "frontend/src/app/chat/page.tsx",
+      "bytes": 4592,
+      "sha256": "1d4185fcc037bed0b531c5ddb686900430fd3e797606235c7c5a072638e0e724"
+    },
+    {
+      "path": "frontend/src/app/admin/page.tsx",
+      "bytes": 3750,
+      "sha256": "de4bc27715994491e4843cf5f9e7b8f4d6e270f8d7359a7468e982dfdf80e1ec"
+    },
+    {
+      "path": "frontend/src/app/nutrition/page.tsx",
+      "bytes": 6173,
+      "sha256": "592ec1ea2fddcf0cb7a4527db7ab26b6841d469b0ae8f5cd6ae36403593e25d9"
+    },
+    {
+      "path": "frontend/src/app/predict/page.tsx",
+      "bytes": 7434,
+      "sha256": "e13e71837c24832014e873cc9470ec6da2ee1e6e5aa9c6df6360f4cc14524921"
+    },
+    {
+      "path": "frontend/src/app/dashboard/page.tsx",
+      "bytes": 3835,
+      "sha256": "5bff2fa57acf23697c0d50e8adcb3f575c955945a653c3239a319450c08c8096"
+    },
+    {
+      "path": ".pytest_cache/v/cache/nodeids",
+      "bytes": 672,
+      "sha256": "65c859740951c85001a34ee4aa0fffca11b75833ddff80aad2b4c499ebe68018"
+    },
+    {
+      "path": ".pytest_cache/v/cache/lastfailed",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "docs/frontier/ADMIN_WHITE_LABEL_TRANSFER_SPEC.md",
+      "bytes": 2010,
+      "sha256": "bc0e13edf39b1abc71a9aad6136ec44b665c9325d60627d1d1a22740351247bf"
+    },
+    {
+      "path": "docs/frontier/MASTER_20K_LINE_ENGINEERING_PROMPT.md",
+      "bytes": 5163922,
+      "sha256": "5593978511f49eef08147f659b891c34a22a2d8bf5b728c401f98ea800005949"
+    },
+    {
+      "path": "docs/frontier/MEDICINE_500K_ARCHITECTURE.md",
+      "bytes": 1510,
+      "sha256": "1a0a302f45adaf1862b99d5d4e31a0fde659f64d70e64686f9fb6b456f15ac4c"
+    },
+    {
+      "path": "docs/frontier/5000_GAP_INDEX.csv",
+      "bytes": 308922,
+      "sha256": "36741a0282969eb2d5f9eb370dafc68575607d039fbe0b6657575ba219d714fc"
+    },
+    {
+      "path": "docs/frontier/FRONTIER_50000_PAGE_ENGINEERING_SPEC.pdf",
+      "bytes": 54335553,
+      "sha256": "04bf62740fbc42a51e636c51d889297b28f6153fc484fc30f8a06db2e9de62dd"
+    },
+    {
+      "path": "docs/frontier/VERIFICATION.md",
+      "bytes": 373,
+      "sha256": "5a2dbf0abbddfe385cb33dd48b5abf4f58093b5853d5df15d28fce1931545180"
+    },
+    {
+      "path": "docs/frontier/5000_IMPLEMENTATION_IDEAS.md",
+      "bytes": 523592,
+      "sha256": "e4126aa4dae858214f0f29dbb2340ac0f0c310665b6e0b1cc9af1ec85d9f75f9"
+    },
+    {
+      "path": "backend/tests/test_api_core.py",
+      "bytes": 1827,
+      "sha256": "f279346568ad7d440c994a8c9f856bad7aa96630c843098c12545f22afc1aadd"
+    },
+    {
+      "path": "backend/tests/test_predictor.py",
+      "bytes": 561,
+      "sha256": "9e94b69cc0420eb2a28bf32fb7e1618c6ba5310c89c2598eec17633ffea87125"
+    },
+    {
+      "path": "backend/app/main.py",
+      "bytes": 2249,
+      "sha256": "099470ab53a69e9bb583345a0e47a4748d2a36f4c7aaf83a50c8a59874761f03"
+    },
+    {
+      "path": "backend/app/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/alembic/env.py",
+      "bytes": 1164,
+      "sha256": "5652cf15eeca2407a7b65f2e5d4bbbce33198de00c90992fc4a4bc875e9711d5"
+    },
+    {
+      "path": "backend/alembic/versions/20260929_v4_core.py",
+      "bytes": 429,
+      "sha256": "686fe4460e4da66140b3be2f0b664482840a576a552b4f0a86326193242771e0"
+    },
+    {
+      "path": "backend/app/repositories/user_repo.py",
+      "bytes": 938,
+      "sha256": "1b11d1d32e60ca64ae418bb487b43a3aa87938f5c32af847c2f0b742a243e89f"
+    },
+    {
+      "path": "backend/app/models/schemas.py",
+      "bytes": 6863,
+      "sha256": "0e4d6707a5fb3995d93ee8810d661955a02e14a9b01ff646f6df620ecb4b04a4"
+    },
+    {
+      "path": "backend/app/models/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/api/v1.py",
+      "bytes": 25743,
+      "sha256": "c8ee7fbb20470e43c78b9c88c4ebb917d4a77affe0502540f1d7590c577e5bb7"
+    },
+    {
+      "path": "backend/app/api/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/core/security.py",
+      "bytes": 1403,
+      "sha256": "3af4cf4580bcd4d1f53a2ec317bdd07b2b79cee96ae8d3b7629bc1c0987854e5"
+    },
+    {
+      "path": "backend/app/core/safety.py",
+      "bytes": 5314,
+      "sha256": "56c810ca13cc642b2c011f71dca187efafead500b148c366471cb7bc3226a381"
+    },
+    {
+      "path": "backend/app/core/config.py",
+      "bytes": 1907,
+      "sha256": "11513138487de430d5eb12c99166cc50409412395b46c02e5afdd3315c6627a2"
+    },
+    {
+      "path": "backend/app/core/middleware.py",
+      "bytes": 805,
+      "sha256": "7c266b35825ea8f714b56fe94d8002523587cfcd0e68150d6a92bc4da27a0f24"
+    },
+    {
+      "path": "backend/app/core/rate_limit.py",
+      "bytes": 1247,
+      "sha256": "9a0f3c574a7195adfcd4eca41444c8a9d3080203363d22356c072b217864932d"
+    },
+    {
+      "path": "backend/app/core/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/ml/predictor.py",
+      "bytes": 6837,
+      "sha256": "2024d9798f476021713685c878d5028368d4cd9843db3a67f175d62f6eacbf54"
+    },
+    {
+      "path": "backend/app/ml/disease_knowledge.py",
+      "bytes": 6357,
+      "sha256": "5529a05c848c0b088ab686ac69c0fb3713bee76acb50031a0d15226361e1a4d3"
+    },
+    {
+      "path": "backend/app/ml/disease_data.py",
+      "bytes": 7599,
+      "sha256": "4d0453c60c886d4eb87bc2c3e77f78580b6975f2300bc9cebf3e18b826a0b202"
+    },
+    {
+      "path": "backend/app/ml/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/services/scan_engine.py",
+      "bytes": 1481,
+      "sha256": "5201a91c7d16175c3430b248d0c2a744b17517f0bd6170848e41b31c67379fc4"
+    },
+    {
+      "path": "backend/app/services/language.py",
+      "bytes": 2102,
+      "sha256": "750c07aa1aad3a21cfbe78883771a3d9b5620e824c38b804682b4f7a2a6bc756"
+    },
+    {
+      "path": "backend/app/services/secure_transfer.py",
+      "bytes": 1812,
+      "sha256": "fc7521b5669dba15148e95d459b3b3683a71fd96d0811fea36541ee4493e2d1c"
+    },
+    {
+      "path": "backend/app/services/nutrition.py",
+      "bytes": 5302,
+      "sha256": "96f3931ac5a3f8d56921fdd254c9af46b6844d7cad6e3501d8aa0cf3ca6e3233"
+    },
+    {
+      "path": "backend/app/services/knowledge_seed.py",
+      "bytes": 15314,
+      "sha256": "d273cf91b126194918b6233fe62ca05a83b35c2100c5891c4e452dce183f66d7"
+    },
+    {
+      "path": "backend/app/services/rag.py",
+      "bytes": 2081,
+      "sha256": "9832734ffa42017e3c182cfca4eec6f39b5b65d6dac998cedb2fe2c9ad25a515"
+    },
+    {
+      "path": "backend/app/services/medicine_catalog.py",
+      "bytes": 709,
+      "sha256": "e1458b5e551774e3bfd063101f7f718b8c867468d5e40e66a8e0e799db66ed64"
+    },
+    {
+      "path": "backend/app/services/voice_scan.py",
+      "bytes": 3713,
+      "sha256": "2ac5a19aef8b72589ef4d38ae42e1810fcae3367647a3518dc5ce24c69d03f1d"
+    },
+    {
+      "path": "backend/app/services/chatbot.py",
+      "bytes": 6758,
+      "sha256": "d73c8d9cfc5bd8b0a329b27ce0f33c5e57986db509267470f4a54b366a6cba5d"
+    },
+    {
+      "path": "backend/app/services/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/utils/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "backend/app/db/models.py",
+      "bytes": 11253,
+      "sha256": "ccc8c367ca4f4e78c8b469754bcf3deb913e637e0ecfa4c1be99db9827cc916a"
+    },
+    {
+      "path": "backend/app/db/database.py",
+      "bytes": 1292,
+      "sha256": "ca37351cc013c5011e76766a3dc531087ea5b4a1b0b0ca636f84cda4c8cc9f5b"
+    },
+    {
+      "path": "backend/app/db/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

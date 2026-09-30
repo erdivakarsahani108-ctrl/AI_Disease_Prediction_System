@@ -1,0 +1,321 @@
+split,disease,symptoms,num_symptoms,label_type
+train,Rheumatoid Arthritis (possible),fatigue|joint_pain|swelling|weakness,4,positive
+train,Tuberculosis (possible),cough|fatigue|fever|loss_of_appetite|night_sweats|weight_loss|wet_cough,7,positive
+train,Irritable Bowel Syndrome,abdominal_pain|constipation|fatigue,3,positive
+train,Depression (possible),insomnia|loss_of_appetite|memory_issues|sore_throat|weakness,5,positive
+train,Kidney Stone (possible),blood_in_urine|frequent_urination|hair_loss|nausea|vomiting,5,positive
+train,Measles,cough|fever|rash|red_eyes|runny_nose,5,positive
+train,Hypothyroidism (possible),cold_intolerance|constipation|fatigue|hair_loss|weight_gain,5,positive
+train,Anemia (possible),dizziness|fatigue|loss_of_appetite|palpitations|shortness_of_breath,5,positive
+train,Dengue (suspected),fatigue|headache|high_fever|joint_pain|muscle_pain|nausea|rash,7,positive
+train,Common Cold,cough|fatigue|mild_fever|runny_nose|sneezing|sore_throat,6,positive
+train,Migraine,dizziness|fatigue|headache|photophobia|vomiting,5,positive
+train,Heat Exhaustion,dizziness|fatigue|headache|nausea|sweating|weakness,6,positive
+train,Depression (possible),depression_mood|insomnia|memory_issues,3,positive
+train,Chickenpox,body_ache|fatigue|fever|itching|loss_of_appetite|rash,6,positive
+train,Dehydration,confusion|dark_urine|fatigue|weakness,4,positive
+train,Tension Headache,anxiety|fever|headache,3,positive
+train,Common Cold,cough|runny_nose|sneezing|sore_throat,4,positive
+train,Tension Headache,anxiety|fatigue|neck_stiffness,3,positive
+train,Chickenpox,body_ache|fatigue|fever|itching|loss_of_appetite|rash,6,positive
+train,COVID-19 (suspected),body_ache|dry_cough|fatigue|vomiting,4,positive
+train,Tension Headache,anxiety|cough|fatigue|headache|neck_stiffness,5,positive
+train,Influenza (Flu),body_ache|chills|cough|fatigue|sneezing,5,positive
+train,Urinary Tract Infection,fatigue|fever|frequent_urination|lower_abdominal_pain|painful_urination,5,positive
+train,Influenza (Flu),body_ache|chills|cough|fatigue|headache|high_fever|sore_throat,7,positive
+train,COVID-19 (suspected),dry_cough|fatigue|fever|loss_of_smell|loss_of_taste|shortness_of_breath,6,positive
+train,Hypertension (risk indicators),blurred_vision|chest_pain|dizziness|fatigue|palpitations,5,positive
+train,Malaria (suspected),blood_in_urine|body_ache|chills|fatigue|high_fever|nausea|vomiting,7,positive
+train,Food Poisoning,abdominal_pain|diarrhea|vomiting|weakness,4,positive
+train,PCOS (possible indicators),acne|hair_loss,2,positive
+train,Measles,cough|fatigue|fever|rash|red_eyes|runny_nose,6,positive
+train,PCOS (possible indicators),acne|depression_mood|fatigue|weight_gain,4,positive
+train,Tuberculosis (possible),cough|fatigue|fever|loss_of_appetite|night_sweats|wet_cough,6,positive
+train,Anemia (possible),dizziness|fatigue|loss_of_appetite|palpitations|shortness_of_breath,5,positive
+train,Dehydration,confusion|dark_urine|dizziness|fatigue|weakness,5,positive
+train,Tension Headache,headache|neck_stiffness,2,positive
+train,PCOS (possible indicators),acne|fatigue|irregular_periods,3,positive
+train,Heat Exhaustion,dizziness|fatigue|nausea|sweating|weakness,5,positive
+train,Sinusitis,cough|headache,2,positive
+train,Vertigo,nausea|vomiting,2,positive
+train,Bronchitis,chest_pain|cough|fatigue|mild_fever|shortness_of_breath,5,positive
+train,Eczema / Dermatitis,itching|rash,2,positive
+train,Typhoid (suspected),abdominal_pain|constipation|diarrhea|fatigue|fever|high_fever|loss_of_appetite,7,positive
+train,Gastroenteritis,abdominal_pain|fever|nausea,3,positive
+train,Gastroenteritis,abdominal_pain|diarrhea|fatigue|fever|loss_of_appetite|nausea|vomiting,7,positive
+train,Anxiety Disorder (possible),anxiety|dizziness|fatigue|insomnia|stiff_neck|sweating,6,positive
+train,Acid Reflux / GERD,chest_pain|heartburn,2,positive
+train,Acid Reflux / GERD,abdominal_pain|chest_pain|heartburn|hoarseness|nausea,5,positive
+train,Irritable Bowel Syndrome,abdominal_pain|constipation|diarrhea|fatigue,4,positive
+train,Heat Exhaustion,dizziness|fatigue|headache|nausea|sweating|weakness,6,positive
+train,COVID-19 (suspected),body_ache|dry_cough|fatigue|fever|loss_of_smell|loss_of_taste|shortness_of_breath,7,positive
+train,Bronchial Asthma (possible),chest_pain|wheezing,2,positive
+train,Bronchial Asthma (possible),chest_pain|cough|fatigue|wheezing,4,positive
+train,Hypertension (risk indicators),blurred_vision|chest_pain|dizziness|fatigue,4,positive
+train,Conjunctivitis,red_eyes|watery_eyes,2,positive
+train,Irritable Bowel Syndrome,abdominal_pain|diarrhea|fatigue,3,positive
+train,Pneumonia (possible),chills|cough|fatigue|fever|shortness_of_breath,5,positive
+train,Dehydration,confusion|dizziness|fatigue|weakness,4,positive
+train,Heat Exhaustion,fatigue|headache|nausea|sweating,4,positive
+train,Anemia (possible),dizziness|fatigue|palpitations,3,positive
+train,COVID-19 (suspected),body_ache|dry_cough|fatigue|fever|loss_of_smell,5,positive
+train,Bronchitis,chest_pain|cough|fatigue|mild_fever|wet_cough,5,positive
+train,Eczema / Dermatitis,itching|rash,2,positive
+train,Typhoid (suspected),abdominal_pain|diarrhea|fatigue|fever|headache|high_fever|loss_of_appetite,7,positive
+train,Food Poisoning,fever|nausea|vomiting,3,positive
+train,Chickenpox,chills|fatigue|fever|itching|loss_of_appetite|rash,6,positive
+train,Influenza (Flu),body_ache|chills|cough|excessive_thirst|headache|high_fever,6,positive
+train,Heat Exhaustion,dizziness|headache|nausea|palpitations|sweating,5,positive
+train,Acid Reflux / GERD,abdominal_pain|chest_pain|hoarseness|nausea,4,positive
+train,Common Cold,fatigue|mild_fever|runny_nose|sneezing|sore_throat,5,positive
+train,Hypertension (risk indicators),chest_pain|dizziness|fatigue|headache,4,positive
+train,Kidney Stone (possible),blood_in_urine|frequent_urination|nausea|vomiting,4,positive
+train,Common Cold,abdominal_pain|runny_nose|sneezing|sore_throat,4,positive
+train,Tension Headache,anxiety|headache,2,positive
+train,Acid Reflux / GERD,chest_pain|hoarseness|muscle_pain|nausea,4,positive
+train,Measles,cough|fatigue|fever|rash|red_eyes|runny_nose,6,positive
+train,Bronchitis,chest_pain|mild_fever|shortness_of_breath,3,positive
+train,Insomnia Disorder,anxiety|fatigue|insomnia|memory_issues,4,positive
+train,Type 2 Diabetes (risk indicators),blurred_vision|excessive_thirst|frequent_urination|weight_loss,4,positive
+train,Malaria (suspected),back_pain|body_ache|chills|fatigue|headache|high_fever|sweating,7,positive
+train,Dehydration,dark_urine|dizziness|fatigue|tingling|weakness,5,positive
+train,Hyperthyroidism (possible),anxiety|heat_intolerance|insomnia|palpitations|tremor|weight_loss,6,positive
+train,Acid Reflux / GERD,heartburn|nausea,2,positive
+train,Rheumatoid Arthritis (possible),fatigue|joint_pain|weakness,3,positive
+train,COVID-19 (suspected),body_ache|dry_cough|fatigue|fever|loss_of_smell|loss_of_taste|shortness_of_breath,7,positive
+train,Urinary Tract Infection,fever|lower_abdominal_pain,2,positive
+train,Appendicitis (possible),abdominal_pain|lower_abdominal_pain|nausea|sneezing|vomiting,5,positive
+train,Vertigo,nausea|vomiting,2,positive
+train,Conjunctivitis,red_eyes|watery_eyes,2,positive
+train,Influenza (Flu),body_ache|cough|fever|headache,4,positive
+train,Osteoarthritis (possible),frequent_urination|joint_pain|swelling,3,positive
+train,PCOS (possible indicators),hair_loss|irregular_periods,2,positive
+train,Vertigo,nausea|vomiting,2,positive
+train,Dengue (suspected),fatigue|high_fever|muscle_pain|rash,4,positive
+train,Typhoid (suspected),abdominal_pain|constipation|diarrhea|fatigue|fever|headache|high_fever|loss_of_appetite,8,positive
+train,Peptic Ulcer (possible),loss_of_appetite|nausea|vomiting,3,positive
+train,Food Poisoning,fever|nausea|weakness,3,positive
+train,Conjunctivitis,itching|red_eyes|watery_eyes,3,positive
+train,Rheumatoid Arthritis (possible),fatigue|joint_pain|swelling,3,positive
+train,COVID-19 (suspected),body_ache|dry_cough|fatigue|fever|loss_of_smell|loss_of_taste|shortness_of_breath,7,positive
+train,Malaria (suspected),body_ache|chills|fatigue|headache|high_fever|nausea|vomiting,7,positive
+train,Peptic Ulcer (possible),heartburn|nausea|rash|vomiting,4,positive
+train,Depression (possible),depression_mood|loss_of_appetite|weakness,3,positive
+train,Type 2 Diabetes (risk indicators),blurred_vision|excessive_thirst|fatigue|frequent_urination,4,positive
+train,Insomnia Disorder,anxiety|fatigue|insomnia|memory_issues,4,positive
+train,Common Cold,fatigue|sneezing|sore_throat,3,positive
+train,Influenza (Flu),body_ache|chills|cough|fever|headache|high_fever|sore_throat,7,positive
+train,Hyperthyroidism (possible),anxiety|heat_intolerance|weight_loss,3,positive
+train,Hyperthyroidism (possible),anxiety|heat_intolerance|insomnia|palpitations|tremor|weight_gain|weight_loss,7,positive
+train,Gastroenteritis,fever|nausea|vomiting,3,positive
+train,Anemia (possible),dizziness|fatigue|loss_of_appetite|palpitations|shortness_of_breath|weakness,6,positive
+train,Dengue (suspected),body_ache|fatigue|high_fever|muscle_pain|nausea|wheezing,6,positive
+train,Urinary Tract Infection,lower_abdominal_pain|painful_urination,2,positive
+train,Type 2 Diabetes (risk indicators),blurred_vision|excessive_thirst|frequent_urination|weight_loss,4,positive
+train,Influenza (Flu),body_ache|cough|headache|high_fever|sore_throat,5,positive
+train,Anxiety Disorder (possible),anxiety|dizziness|insomnia|sweating,4,positive
+train,Hypertension (risk indicators),blurred_vision|chest_pain|dizziness|fatigue|loss_of_taste|palpitations,6,positive
+train,Hyperthyroidism (possible),anxiety|heat_intolerance|insomnia|palpitations|rash|tremor|weight_loss,7,positive
+train,Hypothyroidism (possible),cold_intolerance|constipation|depression_mood|fatigue|hair_loss|palpitations|weight_gain,7,positive
+train,Bronchial Asthma (possible),chest_pain|fatigue,2,positive
+train,Insomnia Disorder,anxiety|fatigue|insomnia|memory_issues,4,positive
+train,Anxiety Disorder (possible),anxiety|dizziness|fatigue|insomnia,4,positive
+train,Osteoarthritis (possible),joint_pain|swelling,2,positive
+train,Hypertension (risk indicators),blurred_vision|chest_pain|dizziness|fatigue|hair_loss|headache|palpitations,7,positive
+train,PCOS (possible indicators),acne|fatigue|hair_loss|irregular_periods|loss_of_smell|weight_gain,6,positive
+train,Appendicitis (possible),fever|lower_abdominal_pain|nausea|tremor|vomiting,5,positive
+train,Tuberculosis (possible),cold_intolerance|cough|fatigue|fever|night_sweats|wet_cough,6,positive
+train,Anxiety Disorder (possible),fatigue|insomnia|palpitations|sweating|tingling,5,positive
+train,Depression (possible),depression_mood|fatigue|insomnia|memory_issues|red_eyes|weakness,6,positive
+train,Irritable Bowel Syndrome,abdominal_pain|constipation,2,positive
+train,Anemia (possible),dizziness|fatigue|weakness,3,positive
+train,Hypothyroidism (possible),cold_intolerance|constipation|fatigue|hair_loss|stiff_neck|weight_gain,6,positive
+train,Tension Headache,anxiety|fatigue|headache|insomnia|neck_stiffness,5,positive
+train,Bronchitis,chest_pain|cough|wet_cough,3,positive
+train,Osteoarthritis (possible),joint_pain|swelling,2,positive
+train,Dehydration,confusion|dark_urine|dizziness|fatigue|weakness,5,positive
+train,Urinary Tract Infection,fatigue|fever|frequent_urination|night_sweats|painful_urination,5,positive
+train,Anemia (possible),dizziness|fatigue|shortness_of_breath,3,positive
+train,Sinusitis,fatigue|lower_abdominal_pain|runny_nose,3,positive
+train,Insomnia Disorder,anxiety|depression_mood|memory_issues,3,positive
+train,Allergic Rhinitis,fatigue|runny_nose,2,positive
+train,Typhoid (suspected),abdominal_pain|diarrhea|fatigue|fever|headache|high_fever|loss_of_appetite,7,positive
+train,Rheumatoid Arthritis (possible),fatigue|joint_pain|swelling,3,positive
+train,Heat Exhaustion,dizziness|fatigue|headache|nausea|sweating|weakness,6,positive
+train,Allergic Rhinitis,heat_intolerance|itching|runny_nose,3,positive
+train,Heat Exhaustion,dizziness|headache|nausea|sweating|weakness,5,positive
+train,Migraine,dizziness|headache|photophobia,3,positive
+train,Peptic Ulcer (possible),abdominal_pain|heartburn|loss_of_appetite|nausea|vomiting,5,positive
+train,Tuberculosis (possible),cough|fever|loss_of_appetite|weight_loss|wet_cough,5,positive
+train,Anemia (possible),dizziness|fatigue|loss_of_appetite|palpitations|shortness_of_breath,5,positive
+train,Tuberculosis (possible),fever|weight_loss|wet_cough|yellow_skin,4,positive
+train,Hyperthyroidism (possible),anxiety|heartburn|heat_intolerance|insomnia|palpitations,5,positive
+train,Appendicitis (possible),loss_of_appetite|nausea|vomiting,3,positive
+train,Measles,blood_in_stool|cough|fever|rash|red_eyes,5,positive
+train,Allergic Rhinitis,fatigue|fever|itching|runny_nose,4,positive
+train,Conjunctivitis,diarrhea|itching|red_eyes|watery_eyes,4,positive
+train,Type 2 Diabetes (risk indicators),blurred_vision|excessive_thirst|fatigue|frequent_urination|weight_loss,5,positive
+train,Dengue (suspected),body_ache|dry_cough|fatigue|headache|high_fever|muscle_pain|rash,7,positive
+train,Urinary Tract Infection,lower_abdominal_pain|painful_urination,2,positive
+train,Dehydration,dark_urine|fatigue,2,positive
+train,Type 2 Diabetes (risk indicators),excessive_thirst|fatigue|frequent_urination|weight_loss,4,positive
+train,Depression (possible),depression_mood|insomnia|loss_of_appetite|memory_issues,4,positive
+train,Urinary Tract Infection,blood_in_urine|frequent_urination|lower_abdominal_pain|painful_urination,4,positive
+train,Kidney Stone (possible),blood_in_urine|nausea,2,positive
+train,Eczema / Dermatitis,itching|rash,2,positive
+train,Depression (possible),depression_mood|fatigue|insomnia|loss_of_appetite|memory_issues|weakness,6,positive
+train,Sinusitis,fatigue|sore_throat,2,positive
+train,Migraine,dizziness|fatigue|headache|night_sweats|photophobia|vomiting,6,positive
+train,Anxiety Disorder (possible),anxiety|dizziness|fatigue|insomnia|palpitations|sweating,6,positive
+train,Peptic Ulcer (possible),abdominal_pain|heartburn|loss_of_appetite|nausea|sweating|vomiting,6,positive
+train,Bronchial Asthma (possible),chest_pain|cough|shortness_of_breath|weight_loss|wheezing,5,positive
+train,Eczema / Dermatitis,itching|rash,2,positive
+train,Heat Exhaustion,dizziness|nausea|sweating,3,positive
+train,Eczema / Dermatitis,itching|rash,2,positive
+train,Pneumonia (possible),chest_pain|chills|fever|shortness_of_breath,4,positive
+train,Tuberculosis (possible),fatigue|night_sweats|weight_loss,3,positive
+train,Irritable Bowel Syndrome,abdominal_pain|constipation|diarrhea|fatigue,4,positive
+train,Conjunctivitis,itching|watery_eyes,2,positive
+train,Bronchitis,cough|fatigue|mild_fever|shortness_of_breath|wet_cough,5,positive
+train,Hyperthyroidism (possible),palpitations|tremor|weight_loss,3,positive
+train,Allergic Rhinitis,runny_nose|sneezing|watery_eyes|wet_cough,4,positive
+train,Bronchial Asthma (possible),chest_pain|cough|fatigue|shortness_of_breath|wheezing,5,positive
+train,Common Cold,cough|fatigue|mild_fever|runny_nose|sneezing|sore_throat,6,positive
+train,PCOS (possible indicators),acne|fatigue|hair_loss|irregular_periods|memory_issues|weight_gain,6,positive
+train,Depression (possible),fatigue|insomnia|memory_issues|muscle_pain,4,positive
+train,Type 2 Diabetes (risk indicators),blurred_vision|excessive_thirst|frequent_urination|weight_loss,4,positive
+train,Peptic Ulcer (possible),dark_urine|loss_of_appetite|nausea,3,positive
+train,Dengue (suspected),body_ache|fatigue|high_fever|joint_pain,4,positive
+train,Gastroenteritis,abdominal_pain|fever|nausea|vomiting,4,positive
+train,Bronchial Asthma (possible),chest_pain|confusion|cough|fatigue|shortness_of_breath,5,positive
+train,Migraine,dizziness|fatigue|headache|nausea|photophobia|vomiting,6,positive
+train,Acid Reflux / GERD,abdominal_pain|diarrhea|nausea,3,positive
+train,Type 2 Diabetes (risk indicators),blurred_vision|fatigue|frequent_urination|weight_loss,4,positive
+train,Vertigo,dizziness|nausea|vomiting,3,positive
+train,Typhoid (suspected),abdominal_pain|constipation|diarrhea|headache|loss_of_appetite,5,positive
+train,Tension Headache,anxiety|fatigue|headache|neck_stiffness,4,positive
+train,Vertigo,excessive_thirst|nausea|vomiting,3,positive
+train,Typhoid (suspected),constipation|diarrhea|fever|high_fever,4,positive
+train,Eczema / Dermatitis,blood_in_urine|itching|rash,3,positive
+train,Pneumonia (possible),fatigue|fever|shortness_of_breath,3,positive
+train,Dengue (suspected),fatigue|headache|high_fever|joint_pain|muscle_pain|rash,6,positive
+train,Allergic Rhinitis,fatigue|itching|runny_nose|sneezing|watery_eyes,5,positive
+train,Bronchial Asthma (possible),fatigue|shortness_of_breath|wheezing,3,positive
+train,Migraine,body_ache|dizziness|fatigue|headache|nausea|photophobia,6,positive
+train,Tuberculosis (possible),night_sweats|weight_loss|wet_cough,3,positive
+train,Measles,cough|fatigue|fever|rash|red_eyes|runny_nose,6,positive
+train,Allergic Rhinitis,itching|runny_nose|sneezing,3,positive
+train,Common Cold,fatigue|mild_fever|muscle_pain|runny_nose|sore_throat,5,positive
+train,Irritable Bowel Syndrome,constipation|diarrhea|fatigue,3,positive
+train,Osteoarthritis (possible),joint_pain|swelling,2,positive
+train,Conjunctivitis,itching|red_eyes,2,positive
+train,Gastroenteritis,diarrhea|loss_of_appetite|nausea|vomiting,4,positive
+train,Dehydration,dark_urine|dizziness|fatigue|weakness,4,positive
+train,Hyperthyroidism (possible),anxiety|heat_intolerance|insomnia|palpitations|tremor|weight_loss,6,positive
+train,Anxiety Disorder (possible),anxiety|blurred_vision|dizziness|fatigue|insomnia|palpitations,6,positive
+train,Irritable Bowel Syndrome,abdominal_pain|diarrhea|fatigue|photophobia,4,positive
+train,Gastroenteritis,abdominal_pain|fever|nausea,3,positive
+train,PCOS (possible indicators),acne|fatigue|irregular_periods|vomiting|weight_gain,5,positive
+train,Food Poisoning,diarrhea|vomiting|weakness|yellow_skin,4,positive
+train,Gastroenteritis,abdominal_pain|diarrhea|fatigue|loss_of_appetite,4,positive
+train,Influenza (Flu),chills|fatigue|fever|headache|high_fever,5,positive
+train,Irritable Bowel Syndrome,abdominal_pain|constipation|diarrhea|fatigue,4,positive
+train,Conjunctivitis,red_eyes|watery_eyes,2,positive
+train,Conjunctivitis,itching|red_eyes|watery_eyes,3,positive
+train,Chickenpox,body_ache|fatigue|fever|loss_of_appetite|rash,5,positive
+val,Urinary Tract Infection,fatigue|frequent_urination|painful_urination,3,positive
+val,Measles,cough|fatigue|fever|rash|red_eyes|runny_nose,6,positive
+val,Kidney Stone (possible),blood_in_urine|frequent_urination|nausea|shortness_of_breath|vomiting,5,positive
+val,COVID-19 (suspected),body_ache|dry_cough|fatigue|fever|loss_of_smell|loss_of_taste|shortness_of_breath,7,positive
+val,Hypothyroidism (possible),depression_mood|fatigue|hair_loss|weight_gain,4,positive
+val,Influenza (Flu),body_ache|chills|cough|fever|headache,5,positive
+val,Pneumonia (possible),chest_pain|chills|fatigue|fever|shortness_of_breath,5,positive
+val,Kidney Stone (possible),blood_in_urine|vomiting,2,positive
+val,Bronchial Asthma (possible),chest_pain|cough|fatigue|shortness_of_breath|wheezing,5,positive
+val,Allergic Rhinitis,fatigue|itching|runny_nose|sneezing|watery_eyes,5,positive
+val,Hypothyroidism (possible),depression_mood|fatigue|hair_loss,3,positive
+val,Vertigo,dizziness|vomiting,2,positive
+val,Insomnia Disorder,anxiety|fatigue|insomnia|memory_issues,4,positive
+val,Vertigo,dizziness|nausea,2,positive
+val,Malaria (suspected),body_ache|chills|fatigue|high_fever|insomnia|vomiting,6,positive
+val,Peptic Ulcer (possible),abdominal_pain|heartburn|nausea,3,positive
+val,Peptic Ulcer (possible),abdominal_pain|heartburn|loss_of_appetite|nausea|vomiting,5,positive
+val,Kidney Stone (possible),blood_in_urine|nausea|vomiting,3,positive
+val,Pneumonia (possible),chest_pain|chills|fatigue|fever|shortness_of_breath,5,positive
+val,Hypertension (risk indicators),blurred_vision|chest_pain|dizziness|headache|insomnia|palpitations,6,positive
+val,Rheumatoid Arthritis (possible),fatigue|joint_pain|swelling|weakness,4,positive
+val,Kidney Stone (possible),blood_in_urine|frequent_urination|nausea,3,positive
+val,Dehydration,dizziness|fatigue,2,positive
+val,Appendicitis (possible),abdominal_pain|fever|loss_of_appetite|lower_abdominal_pain|nausea|shortness_of_breath|vomiting,7,positive
+val,Common Cold,constipation|cough|mild_fever|runny_nose,4,positive
+val,Tension Headache,anxiety|neck_stiffness,2,positive
+val,Hypothyroidism (possible),cold_intolerance|depression_mood|fatigue|hair_loss|weight_gain,5,positive
+val,Bronchitis,cough|fatigue|wet_cough,3,positive
+val,Vertigo,nausea|vomiting,2,positive
+val,Malaria (suspected),body_ache|chills|fatigue|headache|high_fever|nausea|sweating|vomiting,8,positive
+val,Sinusitis,cough|headache,2,positive
+val,Bronchitis,chest_pain|cough|fatigue|mild_fever|shortness_of_breath,5,positive
+val,PCOS (possible indicators),acne|fatigue|hair_loss|irregular_periods|weight_gain,5,positive
+val,Acid Reflux / GERD,abdominal_pain|chest_pain|nausea,3,positive
+val,Migraine,dry_cough|headache|nausea|vomiting,4,positive
+val,Dengue (suspected),body_ache|fatigue|headache|high_fever|joint_pain|muscle_pain|nausea|rash,8,positive
+val,Food Poisoning,abdominal_pain|diarrhea|nausea|vomiting|weakness,5,positive
+val,Migraine,fatigue|nausea|vomiting,3,positive
+val,Malaria (suspected),chills|fatigue|headache|high_fever|sweating,5,positive
+val,Malaria (suspected),body_ache|chills|fatigue|headache|high_fever|joint_pain|nausea|sweating|vomiting,9,positive
+val,Acid Reflux / GERD,abdominal_pain|heartburn,2,positive
+val,Insomnia Disorder,anxiety|blood_in_urine|fatigue|insomnia|memory_issues,5,positive
+val,Chickenpox,body_ache|fatigue|fever|itching|loss_of_appetite|rash,6,positive
+val,Chickenpox,body_ache|fatigue|fever|itching|rash,5,positive
+val,Anxiety Disorder (possible),dizziness|fatigue|insomnia|palpitations|sweating,5,positive
+val,Hypertension (risk indicators),dizziness|fatigue|palpitations,3,positive
+val,Food Poisoning,abdominal_pain|diarrhea|fever|nausea|vomiting|weakness,6,positive
+val,Typhoid (suspected),abdominal_pain|constipation|diarrhea|fatigue|fever|headache|loss_of_appetite,7,positive
+test,Peptic Ulcer (possible),abdominal_pain|fatigue|heartburn|nausea|vomiting,5,positive
+test,Sinusitis,cough|fatigue|headache|sore_throat,4,positive
+test,Gastroenteritis,abdominal_pain|diarrhea|fatigue|fever|loss_of_appetite|nausea|vomiting|wet_cough,8,positive
+test,Osteoarthritis (possible),joint_pain|stiff_neck|swelling,3,positive
+test,COVID-19 (suspected),fever|loss_of_taste|shortness_of_breath,3,positive
+test,Measles,fatigue|red_eyes|runny_nose,3,positive
+test,Allergic Rhinitis,fatigue|itching|runny_nose|sneezing|watery_eyes,5,positive
+test,Sinusitis,fatigue|joint_pain|runny_nose|sore_throat,4,positive
+test,Hyperthyroidism (possible),anxiety|heat_intolerance|palpitations|swelling|weight_loss,5,positive
+test,Hypothyroidism (possible),cold_intolerance|constipation|depression_mood|fatigue|weight_gain,5,positive
+test,Rheumatoid Arthritis (possible),joint_pain|swelling|weakness,3,positive
+test,Urinary Tract Infection,fatigue|fever|frequent_urination|lower_abdominal_pain|painful_urination,5,positive
+test,Food Poisoning,fever|muscle_pain|vomiting|weakness,4,positive
+test,Chickenpox,fatigue|fever|loss_of_appetite|rash,4,positive
+test,Osteoarthritis (possible),joint_pain|swelling,2,positive
+test,Sinusitis,fatigue|headache|sore_throat,3,positive
+test,Appendicitis (possible),loss_of_appetite|lower_abdominal_pain|nausea|neck_stiffness,4,positive
+test,Pneumonia (possible),chest_pain|chills|cough|fatigue|fever|shortness_of_breath,6,positive
+test,Depression (possible),depression_mood|fatigue|insomnia|loss_of_appetite|memory_issues|muscle_pain,6,positive
+test,Insomnia Disorder,anxiety|memory_issues,2,positive
+test,Measles,cough|fatigue|fever|irregular_periods|rash|red_eyes|runny_nose,7,positive
+test,Food Poisoning,abdominal_pain|diarrhea|nausea|vomiting|weakness,5,positive
+test,Dengue (suspected),body_ache|fatigue|headache|high_fever|joint_pain|muscle_pain|nausea|rash,8,positive
+test,Tuberculosis (possible),cough|fever|night_sweats|weight_loss,4,positive
+test,Osteoarthritis (possible),joint_pain|swelling|wheezing,3,positive
+test,Chickenpox,fatigue|fever|itching|rash,4,positive
+test,Malaria (suspected),body_ache|fatigue|headache|high_fever|nausea|sweating|vomiting,7,positive
+test,Anxiety Disorder (possible),anxiety|insomnia|palpitations,3,positive
+test,Appendicitis (possible),abdominal_pain|fever|loss_of_appetite|vomiting,4,positive
+test,Typhoid (suspected),abdominal_pain|diarrhea|headache|loss_of_appetite,4,positive
+test,Sinusitis,cough|headache|runny_nose|sore_throat,4,positive
+test,Rheumatoid Arthritis (possible),fatigue|joint_pain|swelling,3,positive
+test,Bronchitis,cough|fatigue|mild_fever|weight_gain|wet_cough,5,positive
+test,Rheumatoid Arthritis (possible),fatigue|joint_pain|red_eyes|swelling|weakness,5,positive
+test,Kidney Stone (possible),blood_in_urine|frequent_urination|nausea|vomiting,4,positive
+test,Anemia (possible),fatigue|loss_of_appetite|palpitations|shortness_of_breath|weakness,5,positive
+test,Pneumonia (possible),chest_pain|chills|cough|fever|shortness_of_breath,5,positive
+test,Hypothyroidism (possible),cold_intolerance|constipation|depression_mood|fatigue|lower_abdominal_pain|weight_gain,6,positive
+test,Eczema / Dermatitis,itching|rash,2,positive
+test,Appendicitis (possible),abdominal_pain|fever|loss_of_appetite|lower_abdominal_pain|tingling|vomiting,6,positive
+test,Pneumonia (possible),chills|cough|fatigue|fever|shortness_of_breath,5,positive
+test,Osteoarthritis (possible),joint_pain|swelling,2,positive
+test,Hypertension (risk indicators),blurred_vision|chest_pain|fatigue|headache|palpitations,5,positive
+test,Eczema / Dermatitis,itching|rash,2,positive
+test,Type 2 Diabetes (risk indicators),blurred_vision|excessive_thirst|fatigue|weight_loss,4,positive
+test,Migraine,fatigue|nausea|vomiting,3,positive
+test,Appendicitis (possible),abdominal_pain|fever|loss_of_appetite,3,positive
+test,Insomnia Disorder,fatigue|insomnia|memory_issues,3,positive
